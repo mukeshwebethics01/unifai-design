@@ -182,6 +182,9 @@ height: 231px;
 width: 231px;
 }
 
+.section-three{
+ max-width: 976px;
+}
 
 
 .input-container{
