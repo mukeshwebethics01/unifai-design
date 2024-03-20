@@ -12,21 +12,27 @@ padding-block: 16px;
 .unifailogo{
 margin-right: 40px;
 }
+
+
 .nav-btns button{
 white-space: nowrap;
 border: 2px solid #2E1562;
 min-width: 140px;
 }
+
+
 .book-demo-btn{
  background: #2E1562;
 color: white;
 }
 
-.book-demo-btn:hover, .join-btn:hover{
+
+.book-demo-btn:hover, .join-btn:hover, .subscribe-btn:hover{
  background: white;
 color: #2E1562;
 border: 2px solid #2E1562;
 }
+
 
 .subsribe-btn:hover{
 border-color: white;
@@ -35,16 +41,25 @@ color: white;
 border: 2px solid #2E1562;
 }
 
+
 .navbar-custom li a{
 color: #2E1562;
 font-weight: 600;
 }
 
+
 .navbar-custom li{
 margin-right: 40px;
 }
 
+
+.shadow-custom{
+box-shadow: 1px 1px 3px 3px rgb(247, 245, 245);
+}
+
+
 /*   Assests/images/down-arrow.svg   */
+
 
 .nav-product::after{
     content: "";
@@ -103,6 +118,8 @@ color: white;
 font-weight: 700;
 font-size: 20px;
 border: 2px solid #2E1562;
+padding-block: 13px;
+padding-inline: 24px;
 }
 
 
@@ -162,6 +179,8 @@ line-height: 20px;
 
 font-size: 16px;
  max-width: 270px;
+padding-block: 10px;
+padding-inline: 5px;
 
 }
 
@@ -210,13 +229,15 @@ color: white;
 height: 47px;
 font-size: 14px;
 white-space: nowrap;
+font-weight: 700;
 }
 
 .section-three input{
   border: 0;
   height: 40px;
   outline: 0;
-font-size: 14px;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 @media  (max-width:992px) {
@@ -225,12 +246,16 @@ font-size: 14px;
 background-color: white;
 height: 40px;
 }
+
+
 .section-three button{
 background: #30166C;
 color: white;
 height: 35px;
 font-size: 12px;
 }
+
+
 .section-three input{
   border: 0;
   height: 40px;
@@ -238,20 +263,25 @@ font-size: 12px;
 font-size: 12px;
 min-width: 140px;
 }
+
+
 .section-three, p,h3 {
 font-weight: 500;
  font-size: 14px;
 line-height: 25px;
 }
+
 .section-three h2{
 font-weight: 600;
  font-size: 30px;
 line-height: 40px;
 }
+
 .rlogoImage{
 height: 150px;
 height: 150px;
 }
+
 .white-circle{
 height: 170px;
 width: 170px;
@@ -260,6 +290,7 @@ width: 170px;
 .input-bg{
 padding-block: 10px;
 }
+
 
 }
 
@@ -303,6 +334,9 @@ text-decoration: none;
   color: #1B1E3E;
 }
 
+.footer-link:hover{
+ color: #2E1562 !important;
+}
 
 
     
