@@ -459,7 +459,7 @@ font-style: italic;
 }
 
 .joinSectionH2{
-margin-bottom: 76px;
+margin-bottom: 65px;
 }
    
 
@@ -506,6 +506,10 @@ margin-bottom: 30px;
 border-bottom: 2px solid rgb(228, 225, 225);
 margin-bottom: 15px;
 }
+.joinSectionH2{
+margin-bottom: 40px;
+}
+
 }
 
 
