@@ -463,89 +463,18 @@ margin-bottom: 76px;
 }
    
 
-
-
-/* .line-parent:after {
-    content: "";
-    background: red;
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    right: -30px;
-    top: -10px;
-}
-
-
-.line-parent{
-  position: relative;
-} */
-
- 
-
-/* .line-parent{
-  position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .border-lineTwo::after{
-    content: '';
-    display: inline-block;
-    height: 179px;
-    width: 2px;
-    background-color: rgb(231, 225, 225);
-    position: absolute;
-    right: -10%;
-   top: -14%;
-} */
-
-
-/* .line-parentTwo{
-  position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
-
-/* 
-.line-parentThree{
-  position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .border-lineThree::after{
-    content: '';
-    display: inline-block;
-    height: 179px;
-    width: 2px;
-    background-color: rgb(231, 225, 225);
-    position: absolute;
-    right: -10%;
-    top: -88%;
-} */
-
-
-
-
-
-
-
 .info-p p{
 max-width: 300px;
 }
 
-
 .container-logo {
-gap: 80px;
+gap: 20px;
 border-right: 2px solid #e7e7e7;
 }
 .container-logo:last-child{
-border-right: 0;}
+
+ border-right: 0;
+}
 .border_line {
     border-left: 2px solid #e7e7e7;
     padding-left: 30px;
@@ -572,7 +501,14 @@ font-size: 26px;
 .joinlogone{
 margin-bottom: 30px;
 }
+
+.logoSecOne{
+border-bottom: 2px solid rgb(228, 225, 225);
+margin-bottom: 15px;
 }
+}
+
+
 
 @media (max-width:569px) {
     .input-media{
@@ -590,25 +526,24 @@ font-size: 16px;
 }
 }
 
+
+
 @media (max-width:767px) {
   .logoSecOne{
     margin-bottom: 26px;
 }
 }
 
+
+
 @media (max-width:575px) {
-    .logoSecOne{
-    gap: 26px !important;
+    .logoSecOne, .logoSecTwo{
 display: flex;
 flex-direction: column;
 align-items: center;
+text-align: center;
 }
-    .logoSecTwo{
-    gap: 26px !important;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+ 
 
 
 .logosections{
@@ -623,7 +558,9 @@ height:100px;
 
 }
 
-
+.container-logo{
+gap: 0px;
+}
 
 .logoImgTwo{
 width: 200px;
@@ -636,37 +573,22 @@ max-width: 100%;
 .container-div {
     padding-block: 140px;
 }
+
 .joinSectionH2{
-  margin-bottom: 35px;
+  margin-bottom: 22px;
+text-align: center;
+}
+
+.border_line {
+
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 }
 
 
 
-
-
-
-@media (min-width:576px) and (max-width: 992px) {
-
-.logoSecOne{
-border-bottom: 2px solid rgb(228, 225, 225);
-margin-bottom: 15px;
-}
-
-
-.line-parent{
-width: 40%;
-}
-
-.line-parentTwo{
-width: 60%;
-}
-
-
-
-
-}
 
 
 
