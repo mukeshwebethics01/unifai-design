@@ -419,6 +419,7 @@ padding-inline: 19px;
 padding-block: 15px;
 border: 2px solid #2E1562;
 font-weight: 700;
+border-radius:10px ;
 }
 
 
@@ -439,7 +440,7 @@ background-color: #FBF9FF;
 }
 
 .container-div{
-    padding-block: 250px
+    padding-block: 200px
 }
 
 .container-div h2{
@@ -568,6 +569,9 @@ border: 0;
 .container-div h2{
 font-size: 26px;
 }
+.joinlogone{
+margin-bottom: 30px;
+}
 }
 
 @media (max-width:569px) {
@@ -595,12 +599,75 @@ font-size: 16px;
 @media (max-width:575px) {
     .logoSecOne{
     gap: 26px !important;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.joinlogone{
-margin-bottom: 30px;
+    .logoSecTwo{
+    gap: 26px !important;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.logosections{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0px !important;
+}
+
+.logoImgOne{
+height:100px;
+
+}
+
+
+
+.logoImgTwo{
+width: 200px;
+}
+
+.info-p p {
+max-width: 100%;
+}
+
+.container-div {
+    padding-block: 140px;
+}
+.joinSectionH2{
+  margin-bottom: 35px;
 }
 
 }
+
+
+
+
+
+
+@media (min-width:576px) and (max-width: 992px) {
+
+.logoSecOne{
+border-bottom: 2px solid rgb(228, 225, 225);
+margin-bottom: 15px;
+}
+
+
+.line-parent{
+width: 40%;
+}
+
+.line-parentTwo{
+width: 60%;
+}
+
+
+
+
+}
+
 
 
 
