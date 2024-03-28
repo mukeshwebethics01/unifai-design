@@ -116,7 +116,7 @@ gap: 10px !important;
 .homesection h2 {
 color: #2E1562;
 font-weight: 700;
-font-size: 48px;
+font-size: 40px;
 line-height: 64px;
 }
 
@@ -173,7 +173,7 @@ padding-inline: 24px;
 
 @media (max-width:992px) {
  .homesection h2{
-  font-size: 30px;
+ font-size: 26px;
 line-height: 40px;
 }
  .homesection p{
@@ -200,7 +200,7 @@ margin-top: 30px !important;
 
 
 .section-two-p{
-margin-bottom: 7px !important;
+margin-bottom: 7px;
 }
 
 /* section class three style  */
@@ -359,7 +359,7 @@ height: 70px;
 .inputCustom h3{
  font-size: 15px;
 color: #1B1E3E;
-font-weight: 700;
+font-weight: 900;
 }
 
 .contact-input{
@@ -379,7 +379,7 @@ max-width: 561px;
 }
 
 .input-check{
-border: 1px solid #2E1562 !important;
+border: 1px solid #2E1562;
 height: 26.56px;
 width: 26.56px;
 }
@@ -423,11 +423,11 @@ font-weight: 700;
 
 
 
-.submitpara{ 
- font-size: 13px !important;
- line-height: 25px !important;
+.homesection .submitpara{ 
+ font-size: 13px;
+ line-height: 25px;
 max-width: 581px; 
-color: #0f0624 !important;
+color: #0f0624;
 } 
 
 
@@ -442,94 +442,131 @@ background-color: #FBF9FF;
     padding-block: 250px
 }
 
-.joinSecParaTwo{
-color: #2E1562 !important;
-line-height: 20px !important;
-font-weight: 700 !important;
+.container-div h2{
+font-size: 37px;
 }
 
-.joinSecParaFirst{
- line-height: 28px !important;
+.homesection  .joinSecParaTwo{
+color: #2E1562 ;
+line-height: 20px ;
+font-weight: 700 ;
+}
+
+.homesection .joinSecParaFirst{
+ line-height: 28px;
 font-style: italic;
 }
 
 .joinSectionH2{
-margin-bottom: 76px !important;
+margin-bottom: 76px;
 }
    
 
 
-.border-line::after{
-    content: '';
-    /* border-right: 2px solid rgb(224, 221, 221); */
-    display: inline-block;
-    height: 179px;
-    width: 2px;
-    background-color: rgb(231, 225, 225);
+
+/* .line-parent:after {
+    content: "";
+    background: red;
+    width: 1px;
+    height: 100%;
     position: absolute;
-    right: -4%;
-   top: 9%;
+    right: -30px;
+    top: -10px;
 }
 
-.border-lineTwo::after{
-    content: '';
-    /* border-right: 2px solid rgb(224, 221, 221); */
-    display: inline-block;
-    height: 179px;
-    width: 2px;
-    background-color: rgb(231, 225, 225);
-    position: absolute;
-    right: -4%;
-   top: -60%;
-}
-
-
-.line-parentTwo{
-  position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .line-parent{
   position: relative;
+} */
+
+ 
+
+/* .line-parent{
+  position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
+
+/* .border-lineTwo::after{
+    content: '';
+    display: inline-block;
+    height: 179px;
+    width: 2px;
+    background-color: rgb(231, 225, 225);
+    position: absolute;
+    right: -10%;
+   top: -14%;
+} */
 
 
+/* .line-parentTwo{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+/* 
 .line-parentThree{
   position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.border-lineThree{
+/* .border-lineThree::after{
     content: '';
-    /* border-right: 2px solid rgb(224, 221, 221); */
     display: inline-block;
     height: 179px;
     width: 2px;
     background-color: rgb(231, 225, 225);
     position: absolute;
-    right: -4%;
-    top: -60%;
+    right: -10%;
+    top: -88%;
+} */
+
+
+
+
+
+
+
+.info-p p{
+max-width: 300px;
 }
+
+
+.container-logo {
+gap: 80px;
+border-right: 2px solid #e7e7e7;
+}
+.container-logo:last-child{
+border-right: 0;}
+.border_line {
+    border-left: 2px solid #e7e7e7;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
 
 @media (max-width:992px) {
 .join-nav{
-
 display: flex;
 justify-content: start !important;
 
 }
-
-.border-line{
-
-border-right: none;
-
+.border_line {
+border: 0;
+}
+.container-logo{
+border: 0;
+}
+.container-div h2{
+font-size: 26px;
 }
 }
 
@@ -547,6 +584,22 @@ margin-top: 30px;
 .check-label{
 font-size: 16px;
 }
+}
+
+@media (max-width:767px) {
+  .logoSecOne{
+    margin-bottom: 26px;
+}
+}
+
+@media (max-width:575px) {
+    .logoSecOne{
+    gap: 26px !important;
+}
+.joinlogone{
+margin-bottom: 30px;
+}
+
 }
 
 
